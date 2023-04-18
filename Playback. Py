@@ -1,0 +1,4 @@
+
+
+print(input('Insert text:').replace(' ', '...'))
+
