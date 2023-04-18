@@ -1,0 +1,6 @@
+answ = input("What is Answer to the Great Question of Life, the Universe and Everything? ")
+
+if answ == "42" or answ == "forty two" or answ == "forty-two":
+    print("Yes")
+else:
+    print("No")
