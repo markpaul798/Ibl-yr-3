@@ -1,0 +1,23 @@
+def main():
+    t=input('Enter time: ')
+    t=convert(t)
+    # compare number to determine the timings of food
+    if(t>=7.00 and t<=8.00):
+        print('breakfast time')
+    elif(t>=12.00 and t<=13.00):
+        print('Lunch time')
+    elif(t>=18.00 and t<=19.00):
+        print('Dinner time')
+    else:
+        print()
+
+# convert user input to number
+def convert(x=0.0):
+    h, m=x.split(':')
+    h=float(h)
+    m=float(m)/60
+    x=round(h+m,2)
+    print(x)
+    return x
+
+main()
