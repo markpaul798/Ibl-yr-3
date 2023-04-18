@@ -1,0 +1,11 @@
+from collections import OrderedDict
+
+...
+
+while True:
+    try:
+        ...
+    except EOFError:
+      
+        mydict = OrderedDict(sorted(mydict.items(), key=lambda t: t[0]))
+        ...
